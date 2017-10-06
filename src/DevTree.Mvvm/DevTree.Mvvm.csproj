@@ -1,7 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <Description>A tiny MVVM framework for tiny apps</Description>
+    <PackageLicenseUrl>https://github.com/DevelopersTree/DevTree.Mvvm/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/DevelopersTree/DevTree.Mvvm</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/DevelopersTree/DevTree.Mvvm</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>MVVM, framework</PackageTags>
   </PropertyGroup>
 
 </Project>
