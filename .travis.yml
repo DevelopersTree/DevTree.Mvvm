@@ -7,4 +7,4 @@ dist: trusty
 script:
  - dotnet restore
  - dotnet build -c Release
- - dotnet nuget push .\src\DevTree.Mvvm\Debug\*.nupkg -s https://api.nuget.org/v3/index.json -k ${NUGET_API_KEY}
+ - dotnet nuget push ./src/DevTree.Mvvm/bin/Release/*.nupkg -s https://api.nuget.org/v3/index.json -k ${NUGET_API_KEY}
