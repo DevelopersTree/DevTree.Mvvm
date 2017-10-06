@@ -1,4 +1,4 @@
-# DevTree.Mvvm [![NuGet](https://img.shields.io/nuget/v/DevTree.Mvvm.svg)](https://www.nuget.org/packages/DevTree.Mvvm/)
+# DevTree.Mvvm [![Build Status](https://travis-ci.org/DevelopersTree/DevTree.Mvvm.svg?branch=master)](https://travis-ci.org/DevelopersTree/DevTree.Mvvm) [![NuGet](https://img.shields.io/nuget/v/DevTree.Mvvm.svg)](https://www.nuget.org/packages/DevTree.Mvvm/)
 A tiny MVVM framework for tiny apps. Most of the time a really small MVVM framework is enough to get work done. No need for fancy stuff.
 
 ## Documentation
