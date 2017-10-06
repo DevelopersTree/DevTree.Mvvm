@@ -4,5 +4,7 @@ mono: none
 dotnet: 1.0.0
 dist: trusty
 
-  
-script: ./build.sh
+script:
+ - dotnet restore
+ - dotnet build -c Release
+ - mono nuget.exe push src\DevTree.Mvvm\bin\Debug\DevTree.Mvvm.$MAJOR.$MINOR.$PATCH.nupkg -ApiKey $NUGET_API_KEY
