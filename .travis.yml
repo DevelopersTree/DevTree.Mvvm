@@ -1,7 +1,6 @@
 language: csharp
 solution: DevTree.Mvvm.sln
-mono:
-  - latest
-  - 4.6
+mono: none
+dotnet: 1.0
   
 script: ./build.sh
