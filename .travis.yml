@@ -7,4 +7,4 @@ dist: trusty
 script:
  - dotnet restore
  - dotnet build -c Release
- - mono nuget.exe push src\DevTree.Mvvm\bin\Debug\DevTree.Mvvm.$MAJOR.$MINOR.$PATCH.nupkg -ApiKey $NUGET_API_KEY
+ - dotnet nuget push src\DevTree.Mvvm\bin\Debug\*.nupkg -k ${NUGET_API_KEY}
