@@ -8,6 +8,8 @@
     <RepositoryUrl>https://github.com/DevelopersTree/DevTree.Mvvm</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>MVVM, framework</PackageTags>
+    <Authors>Muhammad Azeez</Authors>
+    <Company>Developers Tree</Company>
   </PropertyGroup>
 
 </Project>
