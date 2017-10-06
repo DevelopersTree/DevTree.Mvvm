@@ -1,2 +1,7 @@
 language: csharp
 solution: DevTree.Mvvm.sln
+mono:
+  - latest
+  - 4.6
+  
+script: ./build.sh
