@@ -19,8 +19,7 @@ namespace DevTree.Mvvm
 
         protected void RaisePropertyChanged([CallerMemberName] string propertyName = "")
         {
-            var handler = PropertyChanged;
-            handler?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }
